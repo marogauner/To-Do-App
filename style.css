@@ -10,6 +10,11 @@
   background: linear-gradient(135deg, #a3b519, #19b57f);
   padding: 10px;
 }
+.todo-app img {
+  display: block;
+  margin: auto;
+  width: 50%;
+}
 .todo-app {
   width: 100%;
   max-width: 540px;
@@ -24,7 +29,7 @@
   align-items: center;
   margin-bottom: 20px;
 }
-.row {
+ .row {
   display: flex;
   align-self: center;
   justify-content: space-between;
@@ -37,4 +42,4 @@ input {
   flex: 1;
   border: none;
   outline: none;
-}
+} 
