@@ -20,7 +20,7 @@
 .todo-app {
   width: 100%;
   max-width: 540px;
-  background: #fff;
+  background: linear-gradient(180deg, #ffffff, #ffffff00);
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 10px;
