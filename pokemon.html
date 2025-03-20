@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>To-Do-App</title>
+    <title>Pokémon</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -13,15 +13,16 @@
         <a href="pokemon.html">Pokémon</a>
       </div>
       <div class="todo-app">
-        <img src="content/Main_Icon.png" />
-        <h2>To-Do List</h2>
-        <div class="row">
-          <input type="text" id="inputBox" placeholder="Add your Task here" />
-          <button onclick="AddTask()">Add</button>
-        </div>
-        <ul id="listContainer"></ul>
+        <input type="text" id="pokemon-name" placeholder="Enter Pokémon Name" />
+        <button onclick="fetchData()">Fetch Pokémon</button><br />
+        <img
+          src=""
+          alt="Pokemon Sprite"
+          id="pokemon-sprite"
+          style="display: none"
+        />
       </div>
     </div>
-    <script src="to-do-list.js"></script>
+    <script src="pokemon.js"></script>
   </body>
 </html>

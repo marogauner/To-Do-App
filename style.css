@@ -106,3 +106,27 @@ ul li span {
 ul li span:hover {
   background-color: #edeef038;
 }
+.Selection-Bar {
+  display: block;
+  align-items: center;
+  text-align: center;
+  column-gap: 20px;
+  padding: 20px;
+  border-radius: 50px;
+}
+.Selection-Bar a {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: white;
+
+  margin: 25px;
+  padding: 10px 30px;
+  border-radius: 40px;
+
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+
+  background: linear-gradient(180deg, #19b55ac4, #ffffff00);
+  color: #fff;
+}
