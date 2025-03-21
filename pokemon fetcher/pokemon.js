@@ -10,7 +10,7 @@ async function fetchData() {
 
     if (!response.ok) {
       const imgElement = document.getElementById("pokemon-sprite");
-      imgElement.src = "content/sadBob.png";
+      imgElement.src = "../content/sadBob.png";
 
       throw new Error("Could not fetch resource");
     }

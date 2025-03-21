@@ -130,3 +130,18 @@ ul li span:hover {
   background: linear-gradient(180deg, #19b55ac4, #ffffff00);
   color: #fff;
 }
+
+/* Pokemon */
+.pokemon-img {
+  padding: 1%;
+  position: relative;
+  top: 50px;
+  outline-color: rgba(255, 255, 255, 0.377);
+  outline-width: 0px;
+  outline-style: solid;
+}
+
+.pokemon-caption img {
+  margin-top: -80px;
+  margin-bottom: -40px;
+}
